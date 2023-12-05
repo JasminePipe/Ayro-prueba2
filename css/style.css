@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Space+Mono&family=Vollkorn&family=Zeyada&display=swap');
+/*font-family: 'Catamaran', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Vollkorn', serif;
+font-family: 'Zeyada', cursive;*/
 
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+body{
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#welcome h2 {
+	text-align: center;
+	color: var(--color-titulos);
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+#welcome p {
+	text-align: center;
+	color: var(--color-titulos);
+	margin-bottom: 5%;
+}
+
+#welcome img {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 8%;
+}
+
+#features {
+	margin-bottom: 5rem;
+}
+
+.feat-icon {
+	font-size: 96px;
+	color: var(--color-iconos);
+}
+
+.titles {
+	color: var(--color-titulos);
+}
+
+.feat-icon-check {
+	color: var(--color-checks);
+	font-size: 32px;
+}
+
+#cta {
+	background-image: url("../img/using-touchscreen.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+.cta-title {
+	font-size: 10vw;
+	color: var(--color-general);
+	font-weight: bold;
+}
+
+.cta-p {
+	font-size: 2vw;
+	color: var(--color-general);
+
+}
+
+.cta-box {
+	padding: 10vw 10vw;
+}
+
+.cta-btn {
+	width: 50%;
+	font-size: 10px;
+}
+
+#clients {
+	margin: 5% 0%;
+}
+
+.client-img {
+	width: 80%;
+}
